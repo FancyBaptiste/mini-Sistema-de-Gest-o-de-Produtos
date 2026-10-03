@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($resultado) {
 
-        $_SESSION["usuario"] = $resultado["nome"];
+        $_SESSION["usuario"] = $resultado;
 
         header("Location: dashboard.php");
         exit;
