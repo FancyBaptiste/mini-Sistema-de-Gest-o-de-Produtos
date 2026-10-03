@@ -22,6 +22,7 @@ if (!isset($_SESSION["usuario"])) {
 <a href="fornecedores.php">Fornecedores</a><br>
 <a href="produtos.php">Produtos</a><br>
 <a href="cesta.php">Cesta</a><br><br>
+<a href="visualizar_cesta.php">Minha Cesta</a><br>
 
 <a href="logout.php">Sair</a>
 
